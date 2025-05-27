@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-public class apidemo {
+public class apiTesting {
     @Test
     public void verifyStatusCode(){
         RestAssured.baseURI = "https://reqres.in/api";
